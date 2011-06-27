@@ -1,0 +1,9 @@
+Launchctrl Notes
+-----------------
+
+Directory for plist files: /Users/Dave/Library/LaunchAgents/
+
+launchctrl load <script_file>
+
+launchctrl unload <script_file>
+

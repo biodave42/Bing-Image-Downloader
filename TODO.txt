@@ -1,0 +1,8 @@
+
+Things to add:
+
+Make a BingImageDownloader class
+Have the save_as directory be an optional command line argument
+Use the logger?
+Better STDOUT feedback on what's happening
+More error checking
