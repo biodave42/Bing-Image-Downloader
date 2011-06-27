@@ -1,4 +1,10 @@
 #!/usr/bin/env ruby -wKU
+#
+#  Simple script ecapsulating BingImageDownload class to get the daily image from www.bing.com and save it as a file locally
+#
+# Written by Dave Hodgson
+# Cribbed and hacked from various other sources
+#
 
 require 'optparse'
 require 'rubygems'
