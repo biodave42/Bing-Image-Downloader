@@ -1,0 +1,16 @@
+
+BingImageDownloader.rb
+
+Super simple script for downloading the image from www.bing.com to be saved on the local file system.
+
+Usage: ./bingImageDownloader.rb [-s]
+    -s, --sleep                      Sleep awhile before running
+    -h, --help                       Display this text
+
+
+The image file save path is hard coded in 'main', but not into the class.
+
+Also writes a stdout and stderr log to the current directory
+
+The sleep option for used for when running under launchctrl. Sometimes the network isn't available after the Mac has woken up from sleep until a few seconds. By which time launchctrl may have already fired the script, causing an error.
+
